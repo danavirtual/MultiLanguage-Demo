@@ -3,7 +3,6 @@
 }
 
 
-
 /* Style the header */
 header {
   background-color: #244855;
@@ -27,41 +26,6 @@ nav {
 nav ul {
   list-style-type: none;
   padding: 0;
-}
-
-
-.visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  left: -10000px;
-  overflow: hidden;
-}
-
-.control, fieldset {
-  margin: 6px 0;
-}
-
-h3[required] + label {
-  color: #999;
-  font-family: Arial;
-  font-size: .8em;
-  position: relative;
-  left: -166px; /* the negative of the input width */
-}
-
-h3[required] + label:after {
-  content:'*';
-  color: red;
-}
-
-.required-field::before {
-  content: "*";
-  color: red;
-}
-.required::before {
-  content: "*";
-  color: red;
 }
 
 article {
