@@ -1,0 +1,126 @@
+{
+    "msg_btn_clear_en": "Clear",
+    "msg_btn_clear_es": "Despejar",
+    "msg_btn_clear_fr": "Effacer",
+    "msg_btn_search_en": "Search",
+    "msg_btn_search_es": "Buscar",
+    "msg_btn_search_fr": "Recherche",
+    "msg_btn_select_lng_en": "Apply Now",
+    "msg_btn_select_lng_es": "Aplicar ahora",
+    "msg_btn_select_lng_fr": "Appliquer maintenant",
+
+    "msg_btn_next_en": "Next",
+    "msg_btn_next_es": "Siguiente",
+    "msg_btn_next_fr": "Suivant",
+
+    "msg_btn_exit_en": "Exit",
+    "msg_btn_exit_es": "Salir",
+    "msg_btn_exit_fr": "Sortir",
+
+    "msg_btn_submit_en": "Submit",
+    "msg_btn_submit_es": "Enviar",
+    "msg_btn_submit_fr": "Soumettre",
+
+    "msg_yes_en": "Yes",
+    "msg_yes_es": "Sí",
+    "msg_yes_fr": "Oui",
+    "msg_no_en": "No",
+    "msg_no_es": "No",
+    "msg_no_fr": "Non",
+
+    "msg_btn_translate_en": "Translate",
+    "msg_btn_translate_es": "Traducir",
+    "msg_btn_translate_fr": "Traduire",
+    "msg_doc_src_en": "Original document",
+    "msg_doc_src_es": "Documento original",
+    "msg_doc_src_fr": "Document original",
+    "msg_doc_translated_en": "Translated document",
+    "msg_doc_translated_es": "Documento traducido",
+    "msg_doc_translated_fr": "Document traduit",
+    "msg_footer_en": "Customer Service Support 1-800-772-1213",
+    "msg_footer_es": "Servicio de Atención al Cliente 1-800-772-1213",
+    "msg_footer_fr": "Service clientèle 1-800-772-1213",
+    "msg_header_en": "Language Translator",
+    "msg_header_es": "Traductor de idiomas",
+    "msg_header_fr": "Traducteur de langues",
+    "msg_label_udi_en": "Unique Document ID",
+    "msg_label_udi_es": "ID único del documento",
+    "msg_label_udi_fr": "ID unique du document",
+    "msg_language_select_en": "Select a language to translate to",
+    "msg_language_select_es": "Seleccione el idioma al que desea traducir",
+    "msg_language_select_fr": "Sélectionnez une langue à traduire",
+    "msg_pdf_available_en": "Matching Original PDF Document found",
+    "msg_pdf_available_es": "Documento PDF original encontrado",
+    "msg_pdf_available_fr": "Document PDF original correspondant trouvé",
+    "msg_pdf_not_avl_en": "Original pdf is not available. Please call the Customer Service Support for further assistance - 1-800-772-1213",
+    "msg_pdf_not_avl_es": "El pdf original no está disponible. Para más información, llame al Servicio de Atención al Cliente - 1-800-772-1213",
+    "msg_pdf_not_avl_fr": "Le pdf original n'est pas disponible. Veuillez appeler le service clientèle pour obtenir de l'aide - 1-800-772-1213",
+    "msg_udi_lookup_en": "Translate this notice into your language",
+    "msg_udi_lookup_es": "Seleccione el idioma al que desea traducir",
+    "msg_udi_lookup_fr": "Traduisez cet avis dans votre langue",
+    "msg_welcome_h2_en": "Online Social Security Number (SSN) Application",
+    "msg_welcome_h2_es": "Solicitud de número de seguro social (SSN) en línea",
+    "msg_welcome_h2_fr": "Demande de numéro de sécurité sociale (SSN) en ligne",
+
+    "msg_welcome_h3_en": "Request a Social Security Number (SSN) card online and provide your documentation to the local Social Security (SSA) office.",
+    "msg_welcome_h3_es": "Solicite una tarjeta de Número de Seguro Social (SSN) en línea y proporcione su documentación a la oficina local del Seguro Social (SSA).",
+    "msg_welcome_h3_fr": "Demandez une carte de sécurité sociale (SSN) en ligne et fournissez votre documentation au bureau local de la sécurité sociale (SSA).",
+    
+    "msg_li1_en" : "We will walk you through the guided steps needed to submit your request.",
+    "msg_li1_es" : "Lo guiaremos a través de los pasos necesarios para enviar su solicitud.",
+    "msg_li1_fr" : "Nous vous guiderons à travers les étapes nécessaires pour soumettre votre demande.",
+
+    "msg_li2_en" : "After you submit your online request successfully, you must visit your local Social Security office or card center with your documentation within 45 calendar days. You may be eligible to schedule an appointment before visiting your local Social Security office or card center.",
+    "msg_li2_es" : "Después de enviar su solicitud en línea con éxito, debe visitar su oficina local del Seguro Social o centro de tarjetas con su documentación dentro de los 45 días calendario. Puede ser elegible para programar una cita antes de visitar su oficina local del Seguro Social o centro de tarjetas.",
+    "msg_li2_fr" : "Après avoir soumis votre demande en ligne avec succès, vous devez visiter votre bureau local de la sécurité sociale ou votre centre de cartes avec votre documentation dans les 45 jours calendaires. Vous pouvez être éligible pour planifier un rendez-vous avant de visiter votre bureau local de la sécurité sociale ou votre centre de cartes.",
+
+    "msg_welcome_para01_en": "Acceptable documents MUST be original or copies certified by the issuing agency. Your documents must be unexpired and must show your name and date of birth or age. Find out which documents are required for your original or replacement card request.",
+    "msg_welcome_para01_es": "Los documentos aceptables DEBEN ser originales o copias certificadas por la agencia emisora. Sus documentos deben estar sin vencer y deben mostrar su nombre y fecha de nacimiento o edad. Descubra qué documentos se requieren para su solicitud de tarjeta original o de reemplazo.",
+    "msg_welcome_para01_fr": "Les documents acceptables DOIVENT être originaux ou des copies certifiées par l'agence émettrice. Vos documents doivent être non expirés et doivent indiquer votre nom et votre date de naissance ou votre âge. Découvrez quels documents sont nécessaires pour votre demande de carte originale ou de remplacement.",
+
+    "msg_welcome_para02_en": "After SSA verifies your document(s) and completes your request, you will receive your Social Security card in the mail within 14 business days.",
+    "msg_welcome_para02_es": "Después de que la SSA verifique su(s) documento(s) y complete su solicitud, recibirá su tarjeta de Seguro Social por correo dentro de los 14 días hábiles.",
+    "msg_welcome_para02_fr": "Après que la SSA vérifie votre ou vos document(s) et complète votre demande, vous recevrez votre carte de sécurité sociale par courrier dans les 14 jours ouvrables."
+     
+    ,"msg_privacy_h2_en": "Privacy Act Statement"
+    ,"msg_privacy_h2_es": "Declaración de la Ley de Privacidad"
+    ,"msg_privacy_h2_fr": "Déclaration de la loi sur la protection de la vie privée"
+
+     
+    ,"msg_privacy_h3_en": "Collection and Use of Personal Information"
+    ,"msg_privacy_h3_es": "Recopilación y Uso de Información Personal"
+    ,"msg_privacy_h3_fr": "Collecte et Utilisation d'Informations Personnelles"
+
+    ,"msg_privacy_para01_en": "Sections 202, 205(c), and 702 of the Social Security Act (Act), as amended, allow us to collect this information, which we will use to assign a Social Security number, issue a Social Security card, and make a timely determination concerning eligibility for Social Security benefits. Providing the information is voluntary, but not providing all or part of the information may prevent us from assisting you."
+    ,"msg_privacy_para01_es": "Las secciones 202, 205(c) y 702 de la Ley del Seguro Social (Ley), según enmendada, nos permiten recopilar esta información, que utilizaremos para asignar un número de Seguro Social, emitir una tarjeta de Seguro Social y tomar una determinación oportuna sobre la elegibilidad para los beneficios del Seguro Social. Proporcionar la información es voluntario, pero no proporcionar toda o parte de la información puede evitar que lo ayudemos."
+    ,"msg_privacy_para01_fr": "Les sections 202, 205(c) et 702 de la Loi sur la sécurité sociale (Loi), telle qu'amendée, nous permettent de recueillir ces informations, que nous utiliserons pour attribuer un numéro de sécurité sociale, émettre une carte de sécurité sociale et prendre une décision opportune concernant l'admissibilité aux prestations de sécurité sociale. Fournir les informations est volontaire, mais ne pas fournir toutes ou partie des informations peut nous empêcher de vous aider."
+    ,"msg_age_verification_h2_en": "You must be 18 or older to fill out this application. Are you 18 or older?"
+    ,"msg_age_verification_h2_es": "Debe tener 18 años o más para completar esta solicitud. ¿Tiene 18 años o más?"
+    ,"msg_age_verification_h2_fr": "Vous devez avoir 18 ans ou plus pour remplir cette demande. Avez-vous 18 ans ou plus?"
+    
+    ,"label_appear_as_en": "How should your name to appear on your new card?"
+    ,"label_appear_as_es": "¿Cómo debería aparecer su nombre en su nueva tarjeta?"
+    ,"label_appear_as_fr": "Comment votre nom doit-il apparaître sur votre nouvelle carte?"
+    
+    ,"label_full_birthname_en": "Is the name you entered Full Birth Name?"
+    ,"label_full_birthname_es": "¿Es el nombre que ingresó Nombre completo de nacimiento?"
+    ,"label_full_birthname_fr": "Le nom que vous avez entré est-il le nom complet de naissance?"
+
+    ,"label_ever_had_en": "Have you ever had a Social Security Number (SSN) under a name not listed above?"
+    ,"label_ever_had_es": "¿Ha tenido alguna vez un número de Seguro Social (SSN) bajo un nombre que no figura en la lista anterior?"
+    ,"label_ever_had_fr": "Avez-vous déjà eu un numéro de sécurité sociale (SSN) sous un nom qui ne figure pas ci-dessus?"
+
+
+    ,"lbl_first_en" : "First"
+    ,"lbl_first_es" : "Primero"
+    ,"lbl_first_fr" : "Premier"
+
+    ,"lbl_middle_en" : "Middle"
+    ,"lbl_middle_es" : "Medio"
+    ,"lbl_middle_fr" : "Milieu"
+
+    ,"lbl_last_en" : "Last"
+    ,"lbl_last_es" : "Último"
+    ,"lbl_last_fr" : "Dernier"
+
+}

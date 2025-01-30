@@ -1,0 +1,30 @@
+<main class="main">
+  <div class="content">
+
+    <header>
+      <app-header />
+    </header>
+
+    <section>
+      <nav>
+        Demo Shortcuts:
+        <ul>
+       
+          <li><a routerLink="/" ariaCurrentWhenActive="page">English</a></li>
+          <li><a routerLink="/lng/fr" ariaCurrentWhenActive="page">Langue française</a></li>
+          <li><a routerLink="/lng/es" ariaCurrentWhenActive="page">Idioma español</a></li>
+        </ul>
+        <!-- <input type="submit" (click)="onLngSubmit($event)" value="Random Language" /> -->
+      </nav>
+
+      <article>
+        <!--app-udi-lookup/--> <router-outlet />
+      </article>
+    </section>
+
+    <footer>
+      <app-footer />
+    </footer>
+
+  </div>
+</main>

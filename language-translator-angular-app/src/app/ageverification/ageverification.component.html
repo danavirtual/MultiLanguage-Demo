@@ -1,0 +1,39 @@
+-Formatted HTML-
+ 
+<body>
+   <div class="container">
+      <h3 required="required">{{msg_age_verification_h2}} </h3>
+      <form #userForm="ngForm" (ngSubmit)="onSubmit(userForm.value)">
+      <div class="form-group">
+         <div class="btn-group" >
+            <input type="radio" class="form-control" name="selectedOption" [(ngModel)]="selectedOption" value="Yes" ngModel >{{msg_yes}} 
+            <input type="radio" class="form-control" name="selectedOption" [(ngModel)]="selectedOption"value="No"   ngModel >{{msg_no}} 
+         </div>
+         <!--
+         <label>{{lbl_first}}</label>
+         <input type="text" class="form-control" name="first" ngModel>
+         -->
+      </div>
+      <div>
+         <!-- <label>{{lbl_middle}}</label>
+         <input type="text" class="form-control" name="middle" ngModel>
+         -->
+      </div>
+      <div>
+         <!-- 
+         <label>{{lbl_last}}</label>
+         <input type="text" class="form-control" name="last" ngModel>
+        -->
+      </div>
+      <div class="form-group">
+         <!-- 
+         <label>Email</label>
+         <input type="text" class="form-control" name="email" ngModel>
+         -->
+      </div>
+      <!-- <button type="submit" class="btn btn-primary">{{msg_btn_next}}</button> -->
+      <input type="submit" value="{{msg_btn_next}}" />
+      <input type="submit" (click)="onExit()" value="{{msg_btn_exit}}" />
+      </form>
+   </div>
+</body>

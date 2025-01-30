@@ -1,0 +1,33 @@
+<body>
+    <div class="container">
+       <form #userForm="ngForm" (ngSubmit)="onSubmit(userForm.value)">
+        <p required="required">{{label_appear_as}} </p>
+         <div class="form-group">
+           <label>{{lbl_first}}</label>
+           <input type="text" class="form-control" name="first" ngModel>
+         </div>
+         <div>
+           <label>{{lbl_middle}}</label>
+           <input type="text" class="form-control" name="middle" ngModel>
+         </div>
+         <div>
+          <label>{{lbl_last}}</label>
+          <input type="text" class="form-control" name="last" ngModel>
+        </div>
+        <p required="required">{{label_full_birthname}} </p>
+        <div class="btn-group" >
+            <input type="radio" class="form-control" name="selectedOption" [(ngModel)]="selectedOption" value="Yes" ngModel >{{msg_yes}} 
+            <input type="radio" class="form-control" name="selectedOption" [(ngModel)]="selectedOption"value="No"   ngModel >{{msg_no}} 
+         </div>
+        <p required="required">{{label_ever_had}} </p>
+        <div class="btn-group" >
+            <input type="radio" class="form-control" name="selectedOption2" [(ngModel)]="selectedOption" value="Yes" ngModel >{{msg_yes}} 
+            <input type="radio" class="form-control" name="selectedOption2" [(ngModel)]="selectedOption"value="No"   ngModel >{{msg_no}} 
+         </div>
+         <input type="submit" value="{{msg_btn_next}}" />
+         <input type="submit" (click)="onExit()" value="{{msg_btn_exit}}" />
+ 
+       </form>
+   </div>
+  
+  </body>
