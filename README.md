@@ -18,6 +18,7 @@ cd existing_repo
 git remote add origin https://gitlab.com/jn-algorithms/multilanguage-demo.git
 git branch -M main
 git push -uf origin main
+# note for some reason using ssh does not work properly
 ```
 
 ## Integrate with your tools

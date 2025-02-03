@@ -17,7 +17,7 @@ import { DataSharingService } from "../data-sharing.service";
 import { Router } from "@angular/router";
 import messages from "../../../assets/i18n/messages.json";
 
-
+ 
 
 interface Messages {
   [key: string]: string;
@@ -34,6 +34,7 @@ export class ExitpageComponent implements OnInit {
   label_Next!: string; // label on the screen
   label_btnNext!: string; // label on the screen
   label_btnExit!: string; // label on the screen
+
   selectedOption!: string;
   selectedOption2!: string;
 
@@ -67,7 +68,7 @@ export class ExitpageComponent implements OnInit {
     );
     return result;
   }
- onLanguageChangeRenderMessages = (lng: string) => {
+  onLanguageChangeRenderMessages = (lng: string) => {
     var lng = this.getTargetLngFromSvc();
     this.msg_yes = typedMessages["msg_yes_" + lng];
 
@@ -107,13 +108,6 @@ export class ExitpageComponent implements OnInit {
     this.lbl_middle = typedMessages["lbl_middle_" + lng];
     this.lbl_last = typedMessages["lbl_last_" + lng];
 
-    this.msg_btn_next = typedMessages["msg_btn_next_" + lng];
-    this.msg_btn_exit = typedMessages["msg_btn_exit_" + lng];
-
-    this.lbl_first = typedMessages["lbl_first_" + lng];
-    this.lbl_middle = typedMessages["lbl_middle_" + lng];
-    this.lbl_last = typedMessages["lbl_last_" + lng];
-
     this.label_appear_as = typedMessages["label_appear_as_" + lng];
     this.label_ever_had = typedMessages["label_ever_had_" + lng];
     this.label_full_birthname = typedMessages["label_full_birthname_" + lng];
@@ -140,7 +134,8 @@ export class ExitpageComponent implements OnInit {
 
     this.dataSharingService.setAgeVerificationResponse(value.selectedOption);
     var lng = this.getTargetLngFromSvc();
-    var url = "/exitpage/" + lng;    if (value.selectedOption === "Yes") {
+    var url = "/exitpage/" + lng;
+    if (value.selectedOption === "Yes") {
       console.log("DetailformComponent: navigate to: " + url);
       this.router.navigate([url]);
     } else {
@@ -151,3 +146,5 @@ export class ExitpageComponent implements OnInit {
 
   }
 }
+
+

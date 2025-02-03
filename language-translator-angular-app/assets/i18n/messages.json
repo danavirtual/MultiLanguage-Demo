@@ -65,7 +65,7 @@
     "msg_welcome_h3_en": "Request a Social Security Number (SSN) card online and provide your documentation to the local Social Security (SSA) office.",
     "msg_welcome_h3_es": "Solicite una tarjeta de Número de Seguro Social (SSN) en línea y proporcione su documentación a la oficina local del Seguro Social (SSA).",
     "msg_welcome_h3_fr": "Demandez une carte de sécurité sociale (SSN) en ligne et fournissez votre documentation au bureau local de la sécurité sociale (SSA).",
-
+    
     "msg_li1_en" : "We will walk you through the guided steps needed to submit your request.",
     "msg_li1_es" : "Lo guiaremos a través de los pasos necesarios para enviar su solicitud.",
     "msg_li1_fr" : "Nous vous guiderons à travers les étapes nécessaires pour soumettre votre demande.",
@@ -81,12 +81,12 @@
     "msg_welcome_para02_en": "After SSA verifies your document(s) and completes your request, you will receive your Social Security card in the mail within 14 business days.",
     "msg_welcome_para02_es": "Después de que la SSA verifique su(s) documento(s) y complete su solicitud, recibirá su tarjeta de Seguro Social por correo dentro de los 14 días hábiles.",
     "msg_welcome_para02_fr": "Après que la SSA vérifie votre ou vos document(s) et complète votre demande, vous recevrez votre carte de sécurité sociale par courrier dans les 14 jours ouvrables."
-
+     
     ,"msg_privacy_h2_en": "Privacy Act Statement"
     ,"msg_privacy_h2_es": "Declaración de la Ley de Privacidad"
     ,"msg_privacy_h2_fr": "Déclaration de la loi sur la protection de la vie privée"
 
-
+     
     ,"msg_privacy_h3_en": "Collection and Use of Personal Information"
     ,"msg_privacy_h3_es": "Recopilación y Uso de Información Personal"
     ,"msg_privacy_h3_fr": "Collecte et Utilisation d'Informations Personnelles"
@@ -97,11 +97,11 @@
     ,"msg_age_verification_h2_en": "You must be 18 or older to fill out this application. Are you 18 or older?"
     ,"msg_age_verification_h2_es": "Debe tener 18 años o más para completar esta solicitud. ¿Tiene 18 años o más?"
     ,"msg_age_verification_h2_fr": "Vous devez avoir 18 ans ou plus pour remplir cette demande. Avez-vous 18 ans ou plus?"
-
+    
     ,"label_appear_as_en": "How should your name to appear on your new card?"
     ,"label_appear_as_es": "¿Cómo debería aparecer su nombre en su nueva tarjeta?"
     ,"label_appear_as_fr": "Comment votre nom doit-il apparaître sur votre nouvelle carte?"
-
+    
     ,"label_full_birthname_en": "Is the name you entered Full Birth Name?"
     ,"label_full_birthname_es": "¿Es el nombre que ingresó Nombre completo de nacimiento?"
     ,"label_full_birthname_fr": "Le nom que vous avez entré est-il le nom complet de naissance?"
@@ -126,6 +126,5 @@
     ,"msg_demonstration_complet_en": "Demonstration is Complete"
     ,"msg_demonstration_complet_es": "La demostración está completa"
     ,"msg_demonstration_complet_fr": "La démonstration est terminée"
-
 
 }
