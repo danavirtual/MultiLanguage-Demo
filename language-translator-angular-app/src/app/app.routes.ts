@@ -7,15 +7,17 @@ import { PrivacyactpageComponent } from "./privacyactpage/privacyactpage.compone
 import { AgeverificationComponent } from "./ageverification/ageverification.component";
 import { DetailformComponent } from "./detailform/detailform.component";
 import { ExitpageComponent } from "./exitpage/exitpage.component";
+import { HelppageComponent } from "./helppage/helppage.component";
 
 export const routes: Routes = [
-    { path: "udi/:udi", component: WelcomeComponent }
+      { path: "udi/:udi", component: WelcomeComponent }
     , { path: "lng/:lng", component: LanguageSelectComponent }
     , { path: "lookup-udi/:udi", component: UdiLookupComponent }
     , { path: "privacy/:lng", component: PrivacyactpageComponent }
     , { path: "ageverification/:lng", component: AgeverificationComponent }
     , { path: "detailform/:lng", component: DetailformComponent }
     , { path: "exitpage/:lng", component: ExitpageComponent }
+    , { path: "helppage/:lng", component: HelppageComponent }
     , { path: "display-translated/:udi/:lng", component: DisplayTranslatedPageComponent }
     , { path: "", component: WelcomeComponent } // default route
 ];
