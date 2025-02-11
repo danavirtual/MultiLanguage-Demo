@@ -1,33 +1,39 @@
 <body>
-    <div class="container">
-       <form #userForm="ngForm" (ngSubmit)="onSubmit(userForm.value)">
-        <p required="required">{{label_appear_as}} </p>
-         <div class="form-group">
-           <label>{{lbl_first}}</label>
-           <input type="text" class="form-control" name="first" ngModel>
-         </div>
-         <div>
-           <label>{{lbl_middle}}</label>
-           <input type="text" class="form-control" name="middle" ngModel>
-         </div>
-         <div>
-          <label>{{lbl_last}}</label>
-          <input type="text" class="form-control" name="last" ngModel>
-        </div>
-        <p required="required">{{label_full_birthname}} </p>
-        <div class="btn-group" >
-            <input type="radio" class="form-control" name="selectedOption" [(ngModel)]="selectedOption" value="Yes" ngModel >{{msg_yes}} 
-            <input type="radio" class="form-control" name="selectedOption" [(ngModel)]="selectedOption"value="No"   ngModel >{{msg_no}} 
-         </div>
-        <p required="required">{{label_ever_had}} </p>
-        <div class="btn-group" >
-            <input type="radio" class="form-control" name="selectedOption2" [(ngModel)]="selectedOption" value="Yes" ngModel >{{msg_yes}} 
-            <input type="radio" class="form-control" name="selectedOption2" [(ngModel)]="selectedOption"value="No"   ngModel >{{msg_no}} 
-         </div>
-         <input type="submit" value="{{msg_btn_next}}" />
-         <input type="submit" (click)="onExit()" value="{{msg_btn_exit}}" />
- 
-       </form>
-   </div>
-  
-  </body>
+  <div class="container">
+     <form #userForm="ngForm" (ngSubmit)="onSubmit(userForm.value)">
+      <p required="required">{{label_appear_as}} </p>
+       <div class="form-group">
+         <label>{{lbl_first}}</label>
+         <input type="text" class="form-control" name="first" ngModel>
+       </div>
+       <div>
+         <label>{{lbl_middle}}</label>
+         <input type="text" class="form-control" name="middle" ngModel>
+       </div>
+       <div>
+        <label>{{lbl_last}}</label>
+        <input type="text" class="form-control" name="last" ngModel>
+      </div>
+      <p required="required">{{label_full_birthname}} </p>
+      <div class="btn-group" >
+          <input type="radio" class="form-check-input" name="selectedOption1" value="Yes" ngModel > <!-- id="selectedOption1"> -->
+          <label class="form-check-label" for="selectedOption1">{{msg_yes}}</label>
+
+          <input type="radio" class="form-check-input" name="selectedOption1" value="No" ngModel > <!-- id="selectedOption1"> -->
+          <label class="form-check-label" for="selectedOption1">{{msg_no}}</label>
+       </div>
+      <p required="required">{{label_ever_had}} </p>
+      <input type="radio" class="form-check-input" name="selectedOption2" value="Yes" ngModel >
+      <label class="form-check-label" for="selectedOption2">{{msg_yes}}</label>
+
+      <input type="radio" class="form-check-input" name="selectedOption2" value="No" ngModel >
+      <label class="form-check-label" for="selectedOption2">{{msg_no}}</label>
+
+       <div>
+      <input type="submit" value="{{msg_btn_next}}" />
+       <input type="submit" (click)="onExit()" value="{{msg_btn_exit}}" />
+      </div>
+     </form>
+ </div>
+
+</body>

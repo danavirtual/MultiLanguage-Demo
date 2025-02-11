@@ -1,5 +1,5 @@
 # LanguageTranslatorAngularApp
-
+#### Last Updated 2025.02.11
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.0.0.
 
 ## Project Setup to Run on a server

@@ -52,7 +52,7 @@ export class DetailformComponent implements OnInit {
     var result = '';
     this.dataSharingService.targetLanguage.subscribe(
       (value: string) => {
-        console.log("AgeverificationComponent: Data-Sharing-Svc returned target language: ", value);
+        console.log("DetailformComponent: Data-Sharing-Svc returned target language: ", value);
         result = value;
       }
     );
@@ -106,7 +106,7 @@ export class DetailformComponent implements OnInit {
   onExit() {
     var lng = this.getTargetLngFromSvc();
     var url = "/";
-      console.log("AgeverificationComponent: exit to: " + url);
+      console.log("DetailformComponent: exit to: " + url);
       this.router.navigate([url]);
   }
 
@@ -115,20 +115,24 @@ export class DetailformComponent implements OnInit {
       + " value.first : "  + value.first
       + ", value.middle : " + value.middle
       + ", value.last : " + value.last
-      + ", value.selectedOption :" + value.selectedOption
-      + ", value.selectedOption :" + value.selectedOption2
+      + ", value.selectedOption1 :" + value.selectedOption1
+      + ", value.selectedOption2 :" + value.selectedOption2
     );
     // send value.yes or value.no to dataSharingService
 
-    this.dataSharingService.setAgeVerificationResponse(value.selectedOption);
+    //this.dataSharingService.setAgeVerificationResponse(value.selectedOption);
     var lng = this.getTargetLngFromSvc();
-    var url = "/exitpage/" + lng;
-    if (value.selectedOption === "Yes") {
+    var url = "";
+    if (value.selectedOption1 === "No" && value.selectedOption2 === "Yes") {
+      url = "/detailform/" + lng;
+      this.router.navigate([url]);
+    } else  if (value.selectedOption1 === "Yes" && value.selectedOption2 === "No") {
+      url = "/exitpage/" + lng
       console.log("DetailformComponent: navigate to: " + url);
       this.router.navigate([url]);
     } else {
-      console.log("DetailformComponent: negative navigate to: " + url);
-      url = "/exitpage/" + lng;
+      url = "/helppage/" + lng;
+      console.log("DetailformComponent: navigate to: " + url);
       this.router.navigate([url]);
     }
 
