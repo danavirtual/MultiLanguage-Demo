@@ -1,94 +1,169 @@
-# MultiLanguage-Demo
+# LanguageTranslatorAngularApp
+#### This documentation updated 2025.02.11
+This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.0.0.
+
+## Project Setup to Run on a server
+This project was built with npm version as specified  b elow:
+```bash
+pm version
+{
+  'language-translator-angular-app': '0.0.0',
+  npm: '10.8.1',
+  node: '20.16.0',
+  acorn: '8.11.3',
+  ada: '2.8.0',
+  ares: '1.31.0',
+  base64: '0.5.2',
+  brotli: '1.1.0',
+  cjs_module_lexer: '1.2.2',
+  cldr: '45.0',
+  icu: '75.1',
+  llhttp: '8.1.2',
+  modules: '115',
+  napi: '9',
+  nghttp2: '1.61.0',
+  nghttp3: '0.7.0',
+  ngtcp2: '1.1.0',
+  openssl: '3.0.13+quic',
+  simdutf: '5.2.8',
+  tz: '2024a',
+  undici: '6.19.2',
+  unicode: '15.1',
+  uv: '1.46.0',
+  uvwasi: '0.0.21',
+  v8: '11.3.244.8-node.23',
+  zlib: '1.3.0.1-motley-209717d'
+}
+```
+and with the aangular CLI as shown below:
+```bash
+>ng version
+
+     _                      _                 ____ _     ___
+    / \   _ __   __ _ _   _| | __ _ _ __     / ___| |   |_ _|
+   / △ \ | '_ \ / _` | | | | |/ _` | '__|   | |   | |    | |
+  / ___ \| | | | (_| | |_| | | (_| | |      | |___| |___ | |
+ /_/   \_\_| |_|\__, |\__,_|_|\__,_|_|       \____|_____|___|
+                |___/
 
 
+Angular CLI: 19.0.0
+Node: 20.16.0
+Package Manager: npm 10.8.1
+OS: win32 x64
 
-## Getting started
+Angular: 19.0.0
+... animations, cli, common, compiler, compiler-cli, core, forms
+... platform-browser, platform-browser-dynamic, platform-server
+... router, ssr
 
-To make it easy for you to get started with GitLab, here's a list of recommended next steps.
-
-Already a pro? Just edit this README.md and make it your own. Want to make it easy? [Use the template at the bottom](#editing-this-readme)!
-
-## Add your files
-
-- [ ] [Create](https://docs.gitlab.com/ee/user/project/repository/web_editor.html#create-a-file) or [upload](https://docs.gitlab.com/ee/user/project/repository/web_editor.html#upload-a-file) files
-- [ ] [Add files using the command line](https://docs.gitlab.com/ee/gitlab-basics/add-file.html#add-a-file-using-the-command-line) or push an existing Git repository with the following command:
+Package                         Version
+---------------------------------------------------------
+@angular-devkit/architect       0.1900.0
+@angular-devkit/build-angular   19.0.0
+@angular-devkit/core            19.0.0
+@angular-devkit/schematics      19.0.0
+@schematics/angular             19.0.0
+rxjs                            7.8.1
+typescript                      5.6.3
+zone.js                         0.15.0
 
 ```
-cd existing_repo
-git remote add origin https://gitlab.com/jn-algorithms/multilanguage-demo.git
-git branch -M main
-git push -uf origin main
-# note for some reason using ssh does not work properly
+## Code Installation
+
+Install the code by pulling the code base from git or another repo per your oragnisation's rules or your personal taste.
+
+```bash
+git clone git@gitlab.com:jn-algorithms/multilanguage-demo.git
+// or
+git clone https://gitlab.com/jn-algorithms/multilanguage-demo.git
+
+```
+Once the code has downloaded, you need to reconstitute the node_modules.
+Navidgate to the place where you have cloned the project and do:
+
+```bash
+npm install
+```
+After making certain that works, you are set up in development mode.
+Open the project in VsCode or IDE you prefer.
+
+## Building
+
+To build the project run:
+
+```bash
+ng build
 ```
 
-## Integrate with your tools
+This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
 
-- [ ] [Set up project integrations](https://gitlab.com/jn-algorithms/multilanguage-demo/-/settings/integrations)
+```
+ng build
+```
+if you want to serve the code from a different location  it is advised to do
 
-## Collaborate with your team
+```bash
+ng build --configuration production
 
-- [ ] [Invite team members and collaborators](https://docs.gitlab.com/ee/user/project/members/)
-- [ ] [Create a new merge request](https://docs.gitlab.com/ee/user/project/merge_requests/creating_merge_requests.html)
-- [ ] [Automatically close issues from merge requests](https://docs.gitlab.com/ee/user/project/issues/managing_issues.html#closing-issues-automatically)
-- [ ] [Enable merge request approvals](https://docs.gitlab.com/ee/user/project/merge_requests/approvals/)
-- [ ] [Set auto-merge](https://docs.gitlab.com/ee/user/project/merge_requests/merge_when_pipeline_succeeds.html)
+```
+Then copy the dist folder over to where you want to run
+```bash
+node server.js
+```
+Note: the server.js code is maintained in a separate repo:
+```bash
+<tbd>
+```
 
-## Test and Deploy
+## Development server
+To build, run:
 
-Use the built-in continuous integration in GitLab.
 
-- [ ] [Get started with GitLab CI/CD](https://docs.gitlab.com/ee/ci/quick_start/index.html)
-- [ ] [Analyze your code for known vulnerabilities with Static Application Security Testing (SAST)](https://docs.gitlab.com/ee/user/application_security/sast/)
-- [ ] [Deploy to Kubernetes, Amazon EC2, or Amazon ECS using Auto Deploy](https://docs.gitlab.com/ee/topics/autodevops/requirements.html)
-- [ ] [Use pull-based deployments for improved Kubernetes management](https://docs.gitlab.com/ee/user/clusters/agent/)
-- [ ] [Set up protected environments](https://docs.gitlab.com/ee/ci/environments/protected_environments.html)
+To start a local development server, run:
 
-***
+```bash
+ng serve // --port=<portnumber>
+```
 
-# Editing this README
+Once the server is running, open your browser and navigate to `http://localhost:4200/` (or a different port should the need arise). The application will automatically reload whenever you modify any of the source files.
 
-When you're ready to make this README your own, just edit this file and use the handy template below (or feel free to structure it however you want - this is just a starting point!). Thanks to [makeareadme.com](https://www.makeareadme.com/) for this template.
 
-## Suggestions for a good README
+## Code scaffolding
 
-Every project is different, so consider which of these sections apply to yours. The sections used in the template are suggestions for most open source projects. Also keep in mind that while a README can be too long and detailed, too long is better than too short. If you think your README is too long, consider utilizing another form of documentation rather than cutting out information.
 
-## Name
-Choose a self-explaining name for your project.
 
-## Description
-Let people know what your project can do specifically. Provide context and add a link to any reference visitors might be unfamiliar with. A list of Features or a Background subsection can also be added here. If there are alternatives to your project, this is a good place to list differentiating factors.
+Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
 
-## Badges
-On some READMEs, you may see small images that convey metadata, such as whether or not all the tests are passing for the project. You can use Shields to add some to your README. Many services also have instructions for adding a badge.
+```bash
+ng generate component component-name
+```
 
-## Visuals
-Depending on what you are making, it can be a good idea to include screenshots or even a video (you'll frequently see GIFs rather than actual videos). Tools like ttygif can help, but check out Asciinema for a more sophisticated method.
+For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
 
-## Installation
-Within a particular ecosystem, there may be a common way of installing things, such as using Yarn, NuGet, or Homebrew. However, consider the possibility that whoever is reading your README is a novice and would like more guidance. Listing specific steps helps remove ambiguity and gets people to using your project as quickly as possible. If it only runs in a specific context like a particular programming language version or operating system or has dependencies that have to be installed manually, also add a Requirements subsection.
+```bash
+ng generate --help
+```
 
-## Usage
-Use examples liberally, and show the expected output if you can. It's helpful to have inline the smallest example of usage that you can demonstrate, while providing links to more sophisticated examples if they are too long to reasonably include in the README.
 
-## Support
-Tell people where they can go to for help. It can be any combination of an issue tracker, a chat room, an email address, etc.
+## Running unit tests
 
-## Roadmap
-If you have ideas for releases in the future, it is a good idea to list them in the README.
+To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
 
-## Contributing
-State if you are open to contributions and what your requirements are for accepting them.
+```bash
+ng test
+```
 
-For people who want to make changes to your project, it's helpful to have some documentation on how to get started. Perhaps there is a script that they should run or some environment variables that they need to set. Make these steps explicit. These instructions could also be useful to your future self.
+## Running end-to-end tests
 
-You can also document commands to lint the code or run tests. These steps help to ensure high code quality and reduce the likelihood that the changes inadvertently break something. Having instructions for running tests is especially helpful if it requires external setup, such as starting a Selenium server for testing in a browser.
+For end-to-end (e2e) testing, run:
 
-## Authors and acknowledgment
-Show your appreciation to those who have contributed to the project.
+```bash
+ng e2e
+```
 
-## License
-For open source projects, say how it is licensed.
+Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
 
-## Project status
-If you have run out of energy or time for your project, put a note at the top of the README saying that development has slowed down or stopped completely. Someone may choose to fork your project or volunteer to step in as a maintainer or owner, allowing your project to keep going. You can also make an explicit request for maintainers.
+## Additional Resources
+
+For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
