@@ -1,0 +1,13 @@
+
+Trellix - UNWANTED FILE DETECTED
+
+A file has been blocked by a file-filtering rule. 
+Rule: 'Leidos Blocked Files and Extensions'
+Context: 'app.js'
+Disallowed due to filename
+
+
+For further information, contact your system administrator. 
+Copyright 1999-2014 McAfee, Inc.
+All Rights Reserved.
+http://www.mcafee.com

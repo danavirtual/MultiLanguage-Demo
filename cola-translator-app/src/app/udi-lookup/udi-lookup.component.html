@@ -1,0 +1,19 @@
+<h3>{{label_UdiLookup}}:</h3>
+<form #myform="ngForm" (ngSubmit)="onSubmit(myform)">
+    <div id="udiSrc">
+        <label for="udi">{{label_Udi}}: </label>
+        <input type="text" id="udi" name="udi" placeholder="{{label_Udi}}" ngModel />
+        <input type="submit" (click)="onUdiSearch($event)" value="{{label_btnSubmit}}" />
+        <input type="submit" (click)="onUdiClear($event)" value="{{label_btnClear}}" />
+    </div>
+    <div [className]="udiErrCondition ? 'divVisible':'divHidden'">
+        <div class="appMsg">{{label_pdfNotAvailable}}</div>
+    </div>
+    <div [className]="udiFoundCondition ? 'divVisible':'divHidden'">
+        <div class="appMsg">{{label_pdfAvailable}}</div>
+        <app-display-src-page />
+    </div>
+    <div [className]="udiFoundCondition ? 'divVisible':'divHidden'">
+        <input type="submit" value="{{label_btnTranslate}}" />
+    </div>
+</form>

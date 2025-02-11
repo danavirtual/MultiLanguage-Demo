@@ -1,0 +1,55 @@
+<p>{{label_SelectYourLanguage}}:</p>
+<ul>
+    <li (click)="onFlagClick('en')" [ngClass]="lngEnglishSelected ? 'lngSelected' : ''">
+        <img
+            src="https://upload.wikimedia.org/wikipedia/en/thumb/a/ae/Flag_of_the_United_Kingdom.svg/220px-Flag_of_the_United_Kingdom.svg.png" />
+        <span class="lbl">I speak English </span>
+    </li>
+    <li (click)="onFlagClick('es')" [ngClass]="lngSpanishSelected ? 'lngSelected' : ''">
+        <img
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Flag_of_Mexico.svg/220px-Flag_of_Mexico.svg.png" />
+        <span class="lbl">Hablo español</span>
+    </li>
+    <li (click)="onFlagClick('fr')" [ngClass]="lngFrenchSelected ? 'lngSelected' : ''">
+        <img
+            src="https://upload.wikimedia.org/wikipedia/en/thumb/c/c3/Flag_of_France.svg/220px-Flag_of_France.svg.png" />
+        <span class="lbl">Je parle français</span>
+    </li>
+    <!--
+    <li (click)="onFlagClick('mandarin')" [ngClass]="lngMandarinSelected ? 'lngSelected' : ''">
+        <img
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Flag_of_the_People%27s_Republic_of_China.svg/220px-Flag_of_the_People%27s_Republic_of_China.svg.png" />
+        <span class="lbl">Mandarin </span>
+    </li>
+    <li (click)="onFlagClick('hindi')" [ngClass]="lngHindiSelected ? 'lngSelected' : ''">
+        <img src="https://upload.wikimedia.org/wikipedia/en/thumb/4/41/Flag_of_India.svg/220px-Flag_of_India.svg.png" />
+        <span class="lbl">Hindi </span>
+    </li>
+    <li (click)="onFlagClick('arabic')" [ngClass]="lngArabicSelected ? 'lngSelected' : ''">
+        <img
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Flag_of_Egypt.svg/220px-Flag_of_Egypt.svg.png" />
+        <span class="lbl">Arabic</span>
+    </li>
+    <li (click)="onFlagClick('bengali')" [ngClass]="lngBengaliSelected ? 'lngSelected' : ''">
+        <img
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Flag_of_Bangladesh.svg/220px-Flag_of_Bangladesh.svg.png" />
+        <span class="lbl">Bengali</span>
+    </li>
+    <li (click)="onFlagClick('portuguese')" [ngClass]="lngPortugueseSelected ? 'lngSelected' : ''">
+        <img
+            src="https://upload.wikimedia.org/wikipedia/en/thumb/0/05/Flag_of_Brazil.svg/220px-Flag_of_Brazil.svg.png" />
+        <span class="lbl">Portuguese</span>
+    </li>
+    <li (click)="onFlagClick('russian')" [ngClass]="lngRussianSelected ? 'lngSelected' : ''">
+        <img
+            src="https://upload.wikimedia.org/wikipedia/en/thumb/f/f3/Flag_of_Russia.svg/220px-Flag_of_Russia.svg.png" />
+        <span class="lbl">Russian</span>
+    </li>
+    <li (click)="onFlagClick('urdu')" [ngClass]="lngUrduSelected ? 'lngSelected' : ''">
+        <img
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Flag_of_Pakistan.svg/220px-Flag_of_Pakistan.svg.png" />
+        <span class="lbl">Urdu</span>
+    </li>
+-->
+</ul>
+<input type="submit" value="{{label_btnSelectLanguage}}" (click)="onSubmit()" [className]="lngSelected ? 'divVisible':'divHidden'" />

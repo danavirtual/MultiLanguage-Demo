@@ -1,0 +1,34 @@
+<main class="main">
+  <div class="content">
+
+    <header>
+      <app-header />
+    </header>
+
+    <section>
+      <nav>
+        Available routes:
+        <ul>
+          <li><a routerLink="/udi/123" ariaCurrentWhenActive="page">Welcome with UDI: 123</a></li>
+          <li><a routerLink="/udi/000" ariaCurrentWhenActive="page">Welcome with UDI: 000</a></li>
+          <li><a routerLink="/" ariaCurrentWhenActive="page">Default (Welcome NO UDI)</a></li>
+          <li><a routerLink="/lng/es" ariaCurrentWhenActive="page">Language select ES</a></li>
+          <li><a routerLink="/lng/000" ariaCurrentWhenActive="page">Language select XX</a></li>
+          <li><a routerLink="/lookup-udi/123" ariaCurrentWhenActive="page">UDI lookup 123</a></li>
+          <li><a routerLink="/lookup-udi/000" ariaCurrentWhenActive="page">UDI lookup 000</a></li>
+          <li><a routerLink="/display-translated/123/es" ariaCurrentWhenActive="page">Display 123 ES</a></li>
+        </ul>
+        <input type="submit" (click)="onLngSubmit($event)" value="Random Language" />
+      </nav>
+
+      <article>
+        <!--app-udi-lookup/--> <router-outlet />
+      </article>
+    </section>
+
+    <footer>
+      <app-footer />
+    </footer>
+
+  </div>
+</main>

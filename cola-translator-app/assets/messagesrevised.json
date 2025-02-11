@@ -1,0 +1,55 @@
+{
+    "english": {
+        "msg_btn_clear_en": "Clear",
+        "msg_btn_search_en": "Search",
+        "msg_btn_select_lng_en": "Select Language",
+        "msg_btn_submit_en": "Submit",
+        "msg_btn_translate_en": "Translate",
+        "msg_doc_src_en": "Original document",
+        "msg_doc_translated_en": "Translated document",
+        "msg_footer_en": "Customer Service Support 1-800-772-1213",
+        "msg_header_en": "Language Translator",
+        "msg_label_udi_en": "Unique Document ID",
+        "msg_language_select_en": "Select a language to translate to",
+        "msg_pdf_available_en": "Matching Original PDF Document found",
+        "msg_pdf_not_avl_en": "Original pdf is not available. Please call the Customer Service Support for further assistance - 1-800-772-1213",
+        "msg_udi_lookup_en": "Translate this notice into your language",
+        "msg_welcome_en": "This proof of concept demonstrates the functionality of the PDF Translation Service by allowing users to input a unique document identifier to retrieve an original PDF from a mock API. Users can then select a preferred language for translation, which will trigger the translation process, and finally display the translated PDF.",
+    }
+    ,
+    "french": {
+    "msg_btn_clear_fr": "Effacer",
+    "msg_btn_search_fr": "Rechercher",
+    "msg_btn_select_lng_fr": "Sélectionner la langue",
+    "msg_btn_submit_fr": "Soumettre",
+    "msg_btn_translate_fr": "Traduire",
+    "msg_doc_src_fr": "Document original",
+    "msg_doc_translated_fr": "Document traduit",
+    "msg_footer_fr": "Support du service client 1-800-772-1213",
+    "msg_header_fr": "Traducteur de langue",
+    "msg_label_udi_fr": "Identifiant de document unique",
+    "msg_language_select_fr": "Sélectionnez une langue de traduction",
+    "msg_pdf_available_fr": "Document PDF original correspondant trouvé",
+    "msg_pdf_not_avl_fr": "Le PDF original n'est pas disponible. Veuillez appeler le support du service client pour plus d'assistance - 1-800-772-1213",
+    "msg_udi_lookup_fr": "Traduisez cet avis dans votre langue",
+    "msg_welcome_fr": "Cette preuve de concept démontre la fonctionnalité du service de traduction PDF en permettant aux utilisateurs de saisir un identifiant de document unique pour récupérer un PDF original à partir d'une API fictive. Les utilisateurs peuvent ensuite sélectionner une langue préférée pour la traduction, ce qui déclenchera le processus de traduction et affichera finalement le PDF traduit."
+    }
+    ,
+    "spanish": {
+    "msg_btn_clear_es": "Limpiar",
+    "msg_btn_search_es": "Buscar",
+    "msg_btn_select_lng_es": "Seleccionar idioma",
+    "msg_btn_submit_es": "Enviar",
+    "msg_btn_translate_es": "Traducir",
+    "msg_doc_src_es": "Documento original",
+    "msg_doc_translated_es": "Documento traducido",
+    "msg_footer_es": "Soporte de Atención al Cliente 1-800-772-1213",
+    "msg_header_es": "Traductor de idiomas",
+    "msg_label_udi_es": "Identificación única del documento",
+    "msg_language_select_es": "Seleccione un idioma para traducir",
+    "msg_pdf_available_es": "Documento PDF original coincidente encontrado",
+    "msg_pdf_not_avl_es": "El PDF original no está disponible. Por favor, llame al Soporte de Atención al Cliente para obtener más ayuda - 1-800-772-1213",
+    "msg_udi_lookup_es": "Traduce este aviso a tu idioma",
+    "msg_welcome_es": "Esta prueba de concepto demuestra la funcionalidad del Servicio de Traducción de PDF al permitir a los usuarios ingresar un identificador único de documento para recuperar un PDF original de una API simulada. Luego, los usuarios pueden seleccionar un idioma preferido para la traducción, lo que iniciará el proceso de traducción y, finalmente, mostrará el PDF traducido."
+}
+}
