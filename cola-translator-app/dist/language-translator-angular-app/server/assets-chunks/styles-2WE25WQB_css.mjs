@@ -1,0 +1,2 @@
+export default `body{font-family:Arial,Helvetica,sans-serif;font-size:larger}input[type=button],input[type=submit],input[type=reset]{background-color:#244855;border:none;color:#fff;cursor:pointer;margin:4px 2px;padding:16px 32px;text-decoration:none}input{border-radius:10px;border:1px dashed #410d0d;font-size:medium;margin:10px;padding:12px}.divHidden{display:none}.divVisible{display:block}.appMsg{background-color:#874f41;color:#fff;margin:4px 2px;padding:16px 32px;text-decoration:none}
+`;

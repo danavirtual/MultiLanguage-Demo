@@ -7,6 +7,7 @@ import * as messages from "../../../assets/i18n/messages.json";
 
 @Component({
   selector: "app-display-src-page",
+  standalone: true,
   imports: [CommonModule],
   templateUrl: "./display-src-page.component.html",
   styleUrl: "./display-src-page.component.css"

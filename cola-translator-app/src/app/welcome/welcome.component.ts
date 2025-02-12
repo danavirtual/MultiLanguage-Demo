@@ -3,11 +3,11 @@ import { Component, Input, OnInit } from "@angular/core";
 import { DataSharingService } from "../data-sharing.service";
 import { LanguageSelectComponent } from "../language-select/language-select.component";
 import { Router } from "@angular/router";
-//import * as messages from "../../../assets/i18n/messages.json";
-import * as messages from "../../../assets/i18n/messagesreorg.json";
+import * as messages from "../../../assets/i18n/messages.json";
 
 @Component({
   selector: "app-welcome",
+  standalone: true,
   imports: [CommonModule, LanguageSelectComponent],
   templateUrl: "./welcome.component.html",
   styleUrl: "./welcome.component.css"

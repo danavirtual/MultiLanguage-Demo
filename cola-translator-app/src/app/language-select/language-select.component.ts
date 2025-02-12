@@ -3,9 +3,11 @@ import { Component, Input, OnInit } from "@angular/core";
 import { DataSharingService } from "../data-sharing.service";
 import { Router } from "@angular/router";
 import * as messages from "../../../assets/i18n/messages.json";
+import { FormsModule } from "@angular/forms";
 
 @Component({
   selector: "app-language-select",
+  standalone: true,
   imports: [CommonModule],
   templateUrl: "./language-select.component.html",
   styleUrl: "./language-select.component.css"
